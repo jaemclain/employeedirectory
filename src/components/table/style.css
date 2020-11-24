@@ -1,0 +1,40 @@
+table {
+    width: 80%;
+}
+
+.Table{
+    margin: auto 0;
+    width: 100%;
+    font-family: sans-serif;
+    background-color:White;
+
+}
+#table-heading th{
+    border-color:black;
+    color:black;
+}
+.table tbody td{
+    border-top: none;
+    border-bottom: 1px solid black;
+}
+tbody{
+    color: black;
+}
+
+input[type="text"]{
+    background-color: #000000;
+    border-color:black; 
+    color:black;
+    font-family: sans-serif;
+}
+input[type="text"]:focus{
+    background-color:white;
+    border-color: black;
+    color:black;
+}
+
+#dob-heading, #name-heading{
+    cursor: pointer;
+    transition: color 250ms ease-out;
+    text-shadow: black;
+}

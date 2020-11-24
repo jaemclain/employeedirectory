@@ -1,0 +1,15 @@
+.jumbotron{
+    font-family: sans-serif;
+    color: blue;
+
+}
+h1{
+font-weight: bold;
+text-transform: uppercase;
+}
+
+body, .Header{
+
+    background-color: #000000 !important;
+    
+}
