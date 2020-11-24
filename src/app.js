@@ -1,4 +1,4 @@
-import Table from "./components/Table"
+import Table from "./components/table"
 import Header from "./components/Header"
 import React, { Component } from 'react'
 import API from "./utils/API.js"
@@ -20,7 +20,7 @@ export default class App extends Component {
   }
   nameOnClick = () => {
     let newFilteredEmployees;
-    if (this.state.sortState != "sortedAlpha") {
+    if (this.state.sortState !== "sortedAlpha") {
       newFilteredEmployees = this.state.filteredEmployees.sort(this.sortLastAlpha);
       this.setState({ sortState: "sortedAlpha" })
     } else {
@@ -32,7 +32,7 @@ export default class App extends Component {
   }
   dobOnClick = () => {
     let newFilteredEmployees;
-    if (this.state.sortState != "sortedDOB") {
+    if (this.state.sortState !== "sortedDOB") {
       newFilteredEmployees = this.state.filteredEmployees.sort(dateFormating.sortDate);
       this.setState({ sortState: "sortedDOB" })
     } else {
